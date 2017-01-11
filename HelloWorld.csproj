@@ -30,10 +30,10 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="HelloWorldPage.xaml" />
-    <EmbeddedResource Include="GreetPage.xaml">
+    <EmbeddedResource Include="DataBindSlider2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="MyPage.xaml">
+    <EmbeddedResource Include="DataBindSlider.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="StackPage.xaml">
@@ -52,10 +52,10 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GreetPage.xaml.cs">
-      <DependentUpon>GreetPage.xaml</DependentUpon>
+      <DependentUpon>DataBindSlider2.xaml</DependentUpon>
     </Compile>
     <Compile Include="MyPage.xaml.cs">
-      <DependentUpon>MyPage.xaml</DependentUpon>
+      <DependentUpon>DataBindSlider.xaml</DependentUpon>
     </Compile>
     <Compile Include="StackPage.xaml.cs">
       <DependentUpon>StackPage.xaml</DependentUpon>

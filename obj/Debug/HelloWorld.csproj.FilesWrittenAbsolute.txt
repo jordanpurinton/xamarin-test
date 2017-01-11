@@ -46,3 +46,7 @@
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.StackPage.xaml.g.cs
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.GridPage.xaml
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.GridPage.xaml.g.cs
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.DataBindSlider2.xaml
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.DataBindSlider.xaml
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.DataBindSlider2.xaml.g.cs
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.DataBindSlider.xaml.g.cs
