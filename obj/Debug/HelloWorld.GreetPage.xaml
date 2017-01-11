@@ -1,21 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
+<!-- x:Reference is a markup extensionto reference another obj in the xaml	instead of commented out method in .cs-->
+
 <ContentPage 
 		
 		xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="HelloWorld.GreetPage"> <!--x refers to namespace (x:Class corresponds to Microsoft namespace) -->
 
-	<StackLayout HorizontalOptions="Center" VerticalOptions="Center" > <!-- Have to use this because can't have 
-																			 children elements within ContentPage-->
+	<StackLayout BindingContext="{x:Reference slider}" HorizontalOptions="Center" VerticalOptions="Center" > <!-- Have to use this because can't have children elements within ContentPage-->
+		<BoxView Color="Green" Opacity="{Binding Value}"/>
+		<Label 
+				Text="{Binding Value, 
+				StringFormat='Value is {0:F2}'}"
 
-		<Label Text="{Binding Source={x:Reference valueSlider}, Path=Value, StringFormat='Value is {0:F2}'}" x:Name="sliderValLabel"/> 
-																				<!-- x:Reference is a markup extension
-																				   to reference another obj in the xaml
-																				   instead of commented out method in .cs-->
-		<Slider x:Name="valueSlider"/>
+				Opacity="{Binding Value}"
 
+		/>
 		
+		<Slider x:Name="slider"/>
+
 	</StackLayout>
 
 </ContentPage>

@@ -17,16 +17,12 @@ namespace HelloWorld {
     public partial class GreetPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label sliderValLabel;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Slider valueSlider;
+        private global::Xamarin.Forms.Slider slider;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(GreetPage));
-            sliderValLabel = this.FindByName <global::Xamarin.Forms.Label>("sliderValLabel");
-            valueSlider = this.FindByName <global::Xamarin.Forms.Slider>("valueSlider");
+            slider = this.FindByName <global::Xamarin.Forms.Slider>("slider");
         }
     }
 }
