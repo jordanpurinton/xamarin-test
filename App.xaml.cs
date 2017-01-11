@@ -8,7 +8,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new GridPage();
+			MainPage = new GridPhonePage(); // switch this to a new instance of any of the other examples to view
 		}
 
 		protected override void OnStart()

@@ -42,6 +42,9 @@
     <EmbeddedResource Include="GridPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="GridPhonePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -54,7 +57,7 @@
     <Compile Include="GreetPage.xaml.cs">
       <DependentUpon>DataBindSlider2.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MyPage.xaml.cs">
+    <Compile Include="DataBindSlider.cs">
       <DependentUpon>DataBindSlider.xaml</DependentUpon>
     </Compile>
     <Compile Include="StackPage.xaml.cs">
@@ -62,6 +65,9 @@
     </Compile>
     <Compile Include="GridPage.xaml.cs">
       <DependentUpon>GridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GridPhonePage.xaml.cs">
+      <DependentUpon>GridPhonePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

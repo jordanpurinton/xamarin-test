@@ -3,13 +3,13 @@
 	xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.GridPage"
 	Padding= "0, 20, 0, 0">
 
-<!--	<Grid BackgroundColor="Yellow" 
+	<Grid BackgroundColor="Yellow" 
 		  RowSpacing="40"
 		  ColumnSpacing="40">
 
 		<Grid.RowDefinitions>
 			<RowDefinition Height="100"/>
-			<RowDefinition Height="2*"/> Second row is twice as tall as the third row
+			<RowDefinition Height="2*"/> <!-- Second row is twice as tall as the third row -->
 			<RowDefinition Height="*"/>
 		</Grid.RowDefinitions>
 
@@ -27,5 +27,5 @@
 		<Label Grid.Column="2" Grid.RowSpan="3" Text="RowSpan" BackgroundColor="Silver"/>
 		
 		</Grid>
-	-->
+
 </ContentPage>
