@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{378A3A6A-BB3F-4C46-A228-D708D513D1E8}|Default">
+  <MonoDevelop.Ide.ItemProperties.HelloWorld.Droid PreferredExecutionTarget="Android.test" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GreetPage.xaml">
+    <Files>
+      <File FileName="GreetPage.xaml" Line="19" Column="16" />
+      <File FileName="GreetPage.xaml.cs" Line="22" Column="81" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HelloWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D917DB88-81E8-49A3-BD2E-9D224DB73D6A" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

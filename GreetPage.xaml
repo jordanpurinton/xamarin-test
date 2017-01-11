@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentPage 
+		
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="HelloWorld.GreetPage"> <!--x refers to namespace (x:Class corresponds to Microsoft namespace) -->
+
+	<StackLayout HorizontalOptions="Center" VerticalOptions="Center" > <!-- Have to use this because can't have 
+																			 children elements within ContentPage-->
+
+		<Label Text="{Binding Source={x:Reference valueSlider}, Path=Value, StringFormat='Value is {0:F2}'}" x:Name="sliderValLabel"/> 
+																				<!-- x:Reference is a markup extension
+																				   to reference another obj in the xaml
+																				   instead of commented out method in .cs-->
+		<Slider x:Name="valueSlider"/>
+
+		
+	</StackLayout>
+
+</ContentPage>
