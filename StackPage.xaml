@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage
-	Padding="0, 20, 0, 0"
+		BackgroundColor="Blue"
+			Padding="0, 20, 0, 0"
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	x:Class="HelloWorld.StackPage">
@@ -21,5 +22,18 @@
 	<Label Text="3"/>
 
 </StackLayout>
+
+<!--<StackLayout Orientation="Vertical" HorizontalOptions="Center">
+		<Label Text ="Welcome to Xamarin" FontSize="30" FontAttributes="Bold" TextColor="White"></Label>
+		<Label Text="Cross platform apps made easy" Font="18" TextColor="White"></Label>
+</StackLayout>
+	
+	
+<StackLayout HorizontalOptions="Fill" VerticalOptions="Center">
+	<Button BackgroundColor="Aqua" Text="Login"/>
+	<Button BackgroundColor="Aqua" Text="Register"/>
+</StackLayout>-->
+
+
 	
 </ContentPage>
