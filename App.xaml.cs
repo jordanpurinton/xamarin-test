@@ -8,7 +8,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new QuotesPage();
+			MainPage = new StackPage();
 		}
 
 		protected override void OnStart()

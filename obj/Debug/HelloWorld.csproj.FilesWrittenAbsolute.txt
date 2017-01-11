@@ -42,3 +42,5 @@
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/bin/Debug/HelloWorld.dll.mdb
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/bin/Debug/HelloWorld.dll
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.StackPage.xaml
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.StackPage.xaml.g.cs
