@@ -25,3 +25,15 @@
 /Users/Jordan/Projects/xamarin-forms-demo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/Jordan/Projects/xamarin-forms-demo/iOS/bin/iPhoneSimulator/Debug/HelloWorld.dll
 /Users/Jordan/Projects/xamarin-forms-demo/iOS/bin/iPhoneSimulator/Debug/HelloWorld.dll.mdb
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/HelloWorld.iOS.exe.mdb
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/HelloWorld.iOS.exe
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/obj/iPhoneSimulator/Debug/HelloWorld.iOS.exe
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/obj/iPhoneSimulator/Debug/HelloWorld.iOS.exe.mdb
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/HelloWorld.dll
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/HelloWorld.dll.mdb

@@ -1,10 +1,10 @@
-﻿<Properties StartupConfiguration="{378A3A6A-BB3F-4C46-A228-D708D513D1E8}|Default">
+﻿<Properties StartupConfiguration="{275BC6BF-0A95-4EF1-BAA6-E475BC460697}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloWorld.Droid PreferredExecutionTarget="Android.test" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="obj/Debug/HelloWorld.GreetPage.xaml.g.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/AssemblyInfo.cs">
     <Files>
-      <File FileName="GreetPage.xaml" Line="20" Column="26" />
-      <File FileName="GreetPage.xaml.cs" Line="23" Column="3" />
-      <File FileName="obj/Debug/HelloWorld.GreetPage.xaml.g.cs" Line="27" Column="1" />
+      <File FileName="MyPage.xaml.cs" Line="24" Column="4" />
+      <File FileName="MyPage.xaml" Line="6" Column="2" NotebookId="1" />
+      <File FileName="Properties/AssemblyInfo.cs" Line="29" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

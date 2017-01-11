@@ -12,6 +12,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 			slider.Value = 0.5; // explicitly setting slider val
+
 		}
 
 		//void Handle_ValueChanged(object sender, Xamarin.Forms.ValueChangedEventArgs e)

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="HelloWorld.QuotesPage"
+	Padding="20"
+	>
+
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness">
+		</OnPlatform>
+	</ContentPage.Padding>
+
+
+	<StackLayout HorizontalOptions="Center" VerticalOptions="Center" > <!-- Have to use this because can't have children elements within ContentPage-->
+		<Button Text="Next" Clicked="Handle_Clicked"></Button>
+		<Label
+				BindingContext="{x:Reference slider}"
+				Text="{Binding Value, 
+				StringFormat='Font size {0:F0}'}"
+				FontSize="{Binding Value}"
+		/>
+		
+		<Slider x:Name="slider" Maximum="50" Minimum="16" ValueChanged="Handle_ValueChanged"/>
+		<Label x:Name="quoteLabel" BindingContext="{x:Reference slider}"
+			Text="{Binding Value}"/>
+	</StackLayout>
+
+</ContentPage>
