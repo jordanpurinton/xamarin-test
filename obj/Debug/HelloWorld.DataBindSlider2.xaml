@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- x:Reference is a markup extensionto reference another obj in the xaml	instead of commented out method in .cs-->
+
+<ContentPage 
+		
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="HelloWorld.GreetPage"> <!--x refers to namespace (x:Class corresponds to Microsoft namespace) -->
+
+	<ContentPage.Padding> <!--Known as property element syntax-->
+		<OnPlatform x:TypeArguments="Thickness"
+			iOS="0, 20, 0, 0"
+			Android="0, 40, 0, 0">z
+		</OnPlatform>
+	</ContentPage.Padding>
+
+	<StackLayout BindingContext="{x:Reference slider}" HorizontalOptions="Center" VerticalOptions="Center" > <!-- Have to use this because can't have children elements within ContentPage-->
+		<BoxView Color="Green" Opacity="{Binding Value}"/>
+		<Label
+				Text="{Binding Value, 
+				StringFormat='Value is {0:F2}'}"
+				Opacity="{Binding Value}"
+
+		/>
+		
+		<Slider x:Name="slider"/>
+
+	</StackLayout>
+
+</ContentPage>
