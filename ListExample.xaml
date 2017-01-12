@@ -1,11 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage Padding="0, 20, 0, 0" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.ListExample">
 
-	<ListView x:Name="listView">
+	<ListView x:Name="listView" HasUnevenRows="true"> <!-- Height of each will be based on its content -->
 		<ListView.ItemTemplate>
 
 			<DataTemplate>
-				<ImageCell Text="{Binding Name}" Detail="{Binding Status}" ImageSource="{Binding ImageUrl}"/>
+				<ViewCell>
+					<StackLayout Orientation="Horizontal" Padding="5">
+						<Image Source="{Binding ImageUrl}"/>
+						<StackLayout HorizontalOptions="StartAndExpand">
+							<Label Text="{Binding Name}"></Label>
+							<Label Text="{Binding Status}" TextColor="Gray"></Label>
+						</StackLayout>
+						<Button Text="Message"/>
+					</StackLayout>
+				</ViewCell>
 			</DataTemplate>
 
 		</ListView.ItemTemplate>
