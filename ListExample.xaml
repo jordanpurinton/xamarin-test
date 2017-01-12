@@ -24,7 +24,7 @@
 	</ListView>-->
 
 	<!--SECOND EXAMPLE-->
-	<ListView x:Name="listView" 
+<!--	<ListView x:Name="listView" 
 			IsGroupingEnabled="true" 
 			GroupDisplayBinding="{Binding Title}"
 			GroupShortNameBinding="{Binding ShortTitle}">
@@ -35,6 +35,20 @@
 				<TextCell Text="{Binding Name}" Detail="{Binding Status}"/>
 			</DataTemplate>
 			
+		</ListView.ItemTemplate>
+
+	</ListView>-->
+
+	<ListView x:Name="listView"
+		ItemTapped="Handle_ItemTapped"
+		ItemSelected="Handle_ItemSelected"
+			>
+		<ListView.ItemTemplate>
+
+			<DataTemplate>
+				<TextCell Text="{Binding Name}" Detail="{Binding Status}"/>
+			</DataTemplate>
+
 		</ListView.ItemTemplate>
 
 	</ListView>
