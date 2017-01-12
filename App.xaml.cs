@@ -8,7 +8,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new MasterDetailPage()); // switch this to a new instance of any
+			MainPage = new TabbedPageExample(); // switch this to a new instance of any
             											   // of the other examples to view that page
 			//{
 			//	BarBackgroundColor = Color.Gray,

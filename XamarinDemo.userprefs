@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{378A3A6A-BB3F-4C46-A228-D708D513D1E8}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloWorld.Droid PreferredExecutionTarget="Android.test" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NavigationExamples/ContactDetailPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="App.xaml.cs" Line="17" Column="4" />
-      <File FileName="NavigationExamples/MasterDetailPage.xaml" Line="8" Column="63" />
-      <File FileName="NavigationExamples/MasterDetailPage.xaml.cs" Line="30" Column="39" />
-      <File FileName="NavigationExamples/ContactDetailPage.xaml" Line="3" Column="23" />
-      <File FileName="NavigationExamples/ContactDetailPage.xaml.cs" Line="16" Column="29" />
+      <File FileName="App.xaml.cs" Line="11" Column="36" />
+      <File FileName="NavigationExamples/TabbedExample/TabbedPage.xaml" Line="6" Column="28" />
+      <File FileName="NavigationExamples/TabbedExample/ContentPage1.xaml" Line="7" Column="1" />
+      <File FileName="NavigationExamples/TabbedExample/ContentPage1.xaml.cs" Line="1" Column="1" />
+      <File FileName="ListExample.xaml.cs" Line="55" Column="5" />
+      <File FileName="iOS/AppDelegate.cs" Line="19" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

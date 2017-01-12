@@ -66,6 +66,15 @@
     <EmbeddedResource Include="NavigationExamples\ContactDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="NavigationExamples\TabbedExample\TabbedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationExamples\TabbedExample\ContentPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationExamples\TabbedExample\ContentPage2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -113,6 +122,15 @@
     <Compile Include="NavigationExamples\ContactDetailPage.xaml.cs">
       <DependentUpon>ContactDetailPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NavigationExamples\TabbedExample\TabbedPage.xaml.cs">
+      <DependentUpon>TabbedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationExamples\TabbedExample\ContentPage1.xaml.cs">
+      <DependentUpon>ContentPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationExamples\TabbedExample\ContentPage2.xaml.cs">
+      <DependentUpon>ContentPage2.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -131,6 +149,7 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="NavigationExamples\" />
+    <Folder Include="NavigationExamples\TabbedExample\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

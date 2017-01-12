@@ -37,3 +37,6 @@
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/HelloWorld.dll
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/bin/iPhoneSimulator/Debug/HelloWorld.dll.mdb
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/obj/iPhoneSimulator/Debug/optimized/clock.png
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/obj/iPhoneSimulator/Debug/optimized/clock@2x.png
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/iOS/obj/iPhoneSimulator/Debug/optimized/clock@3x.png
