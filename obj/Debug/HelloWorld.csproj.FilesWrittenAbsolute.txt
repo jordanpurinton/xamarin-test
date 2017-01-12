@@ -66,3 +66,11 @@
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExample.IntroductionPage.xaml
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExample.HomePage.xaml.g.cs
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExample.IntroductionPage.xaml.g.cs
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExamples.HomePage.xaml
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExamples.IntroductionPage.xaml
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExamples.MasterDetailPage.xaml
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExamples.ContactDetailPage.xaml
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExamples.HomePage.xaml.g.cs
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExamples.IntroductionPage.xaml.g.cs
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExamples.MasterDetailPage.xaml.g.cs
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExamples.ContactDetailPage.xaml.g.cs

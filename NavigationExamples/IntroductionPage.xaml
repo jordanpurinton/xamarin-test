@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?> <!--Explicitly disable back button-->
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage 
 		Title="The best app" 
 		xmlns="http://xamarin.com/schemas/2014/forms" 
