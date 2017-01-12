@@ -8,7 +8,12 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new ListExample(); // switch this to a new instance of any of the other examples to view
+			MainPage = new NavigationPage(new HomePage())  // switch this to a new instance of any
+            											   // of the other examples to view that page
+			{
+				BarBackgroundColor = Color.Gray,
+				BarTextColor = Color.White
+			};
 		}
 
 		protected override void OnStart()

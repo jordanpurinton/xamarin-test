@@ -62,3 +62,7 @@
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.RelativeLayoutPage.xaml.g.cs
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.ListExample.xaml
 /Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.ListExample.xaml.g.cs
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExample.HomePage.xaml
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExample.IntroductionPage.xaml
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExample.HomePage.xaml.g.cs
+/Users/Jordan/Projects/xamarin-udemy-course/xaml-essentials/obj/Debug/HelloWorld.NavigationExample.IntroductionPage.xaml.g.cs
