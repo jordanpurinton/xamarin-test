@@ -10,5 +10,5 @@
 		<Button Text="Get Started" BackgroundColor="Silver" TextColor="White"
 				AbsoluteLayout.LayoutBounds="0, 1, 1, 50" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"/>
 	</AbsoluteLayout>
-	
+
 </ContentPage>
