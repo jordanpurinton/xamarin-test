@@ -36,7 +36,7 @@
     <EmbeddedResource Include="DataBindSlider.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="StackPage.xaml">
+    <EmbeddedResource Include="StackLayoutPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="GridPage.xaml">
@@ -46,6 +46,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="AbsoluteLayoutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelativeLayoutPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -64,7 +67,7 @@
       <DependentUpon>DataBindSlider.xaml</DependentUpon>
     </Compile>
     <Compile Include="StackPage.xaml.cs">
-      <DependentUpon>StackPage.xaml</DependentUpon>
+      <DependentUpon>StackLayoutPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="GridPage.xaml.cs">
       <DependentUpon>GridPage.xaml</DependentUpon>
@@ -74,6 +77,9 @@
     </Compile>
     <Compile Include="AbsoluteLayoutPage.xaml.cs">
       <DependentUpon>AbsoluteLayoutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RelativeLayoutPage.xaml.cs">
+      <DependentUpon>RelativeLayoutPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

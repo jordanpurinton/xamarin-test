@@ -8,7 +8,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new AbsoluteLayoutPage(); // switch this to a new instance of any of the other examples to view
+			MainPage = new RelativeLayoutPage(); // switch this to a new instance of any of the other examples to view
 		}
 
 		protected override void OnStart()
