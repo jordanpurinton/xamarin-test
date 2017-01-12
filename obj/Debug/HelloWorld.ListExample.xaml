@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage Padding="0, 20, 0, 0" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.ListExample">
 
-	<ListView x:Name="listView" HasUnevenRows="true"> <!-- Height of each will be based on its content -->
+
+	<!--FIRST EXAMPLE-->
+<!--	<ListView x:Name="listView" HasUnevenRows="true">
 		<ListView.ItemTemplate>
 
 			<DataTemplate>
@@ -17,6 +19,22 @@
 				</ViewCell>
 			</DataTemplate>
 
+		</ListView.ItemTemplate>
+
+	</ListView>-->
+
+	<!--SECOND EXAMPLE-->
+	<ListView x:Name="listView" 
+			IsGroupingEnabled="true" 
+			GroupDisplayBinding="{Binding Title}"
+			GroupShortNameBinding="{Binding ShortTitle}">
+
+		<ListView.ItemTemplate>
+
+			<DataTemplate>
+				<TextCell Text="{Binding Name}" Detail="{Binding Status}"/>
+			</DataTemplate>
+			
 		</ListView.ItemTemplate>
 
 	</ListView>
