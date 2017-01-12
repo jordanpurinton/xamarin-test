@@ -23,7 +23,7 @@
 
 	</ListView>-->
 
-	<!--SECOND EXAMPLE-->
+	<!--CONTACT GROUP EXAMPLE-->
 <!--	<ListView x:Name="listView" 
 			IsGroupingEnabled="true" 
 			GroupDisplayBinding="{Binding Title}"
@@ -39,7 +39,8 @@
 
 	</ListView>-->
 
-	<ListView x:Name="listView"
+	<!--TAPPED/SELECTED EXAMPLE-->
+<!--	<ListView x:Name="listView"
 		ItemTapped="Handle_ItemTapped"
 		ItemSelected="Handle_ItemSelected"
 			>
@@ -47,6 +48,24 @@
 
 			<DataTemplate>
 				<TextCell Text="{Binding Name}" Detail="{Binding Status}"/>
+			</DataTemplate>
+
+		</ListView.ItemTemplate>
+
+	</ListView>-->
+
+		<!--CONTEXT ACTION EXAMPLE-->
+	<ListView x:Name="listView"
+		>
+		<ListView.ItemTemplate>
+
+			<DataTemplate>
+				<TextCell Text="{Binding Name}" Detail="{Binding Status}">
+					<TextCell.ContextActions>
+						<MenuItem Text="Call" Clicked="Call_Clicked" CommandParameter="{Binding .}"/>
+						<MenuItem Text="Delete" Clicked="Delete_Clicked" IsDestructive="true" CommandParameter="{Binding .}"/>
+					</TextCell.ContextActions>
+				</TextCell>
 			</DataTemplate>
 
 		</ListView.ItemTemplate>
