@@ -8,7 +8,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new FormEntryExample(); 	// switch this to a new instance of any
+			MainPage = new PickerExamples(); 	// switch this to a new instance of any
             									   // of the other examples to view that page
 		}
 
