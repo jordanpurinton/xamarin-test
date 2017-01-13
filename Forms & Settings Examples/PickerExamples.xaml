@@ -13,10 +13,10 @@
 		</Picker>-->
 
 		<Picker x:Name="piePicker" Title="Favorite Pie" SelectedIndexChanged="Handle_SelectedIndexChanged">
-			<Picker.Items>
+<!--			<Picker.Items>
 				<x:String>Cherry Pie</x:String>
 				<x:String>Apple Pie</x:String>
-			</Picker.Items>
+			</Picker.Items>-->
 		</Picker>
 
 	</StackLayout>
