@@ -8,12 +8,8 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new QuotesPage(); 					// switch this to a new instance of any
-            											   // of the other examples to view that page
-			//{
-			//	BarBackgroundColor = Color.Gray,
-			//	BarTextColor = Color.White
-			//};
+			MainPage = new ActionSheetExample(); 	// switch this to a new instance of any
+            									   // of the other examples to view that page
 		}
 
 		protected override void OnStart()
