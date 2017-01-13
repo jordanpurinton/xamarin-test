@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Padding="40" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.SwitchSliderStepperEx">
+
+	<StackLayout>
+
+		<Switch IsToggled="true" Toggled="Handle_Toggled"/> <!--Programmatic approach-->
+		<Label x:Name="label" Text="Great content"/>
+		
+		<Switch IsToggled="true" x:Name="switch"/> <!--Non programmatic approach-->
+		<Label Text="More great content" IsVisible="{Binding Source={x:Reference switch}, Path=IsToggled}"/>
+
+		<Slider x:Name="slider" Maximum="255" Minimum="10" Value="50"/>
+		<Label Text="{Binding Source={x:Reference slider}, Path=Value, StringFormat='{0:N0}'}"/>
+
+		<Stepper x:Name="stepper" Increment="5" Minimum="0" Maximum="10"/>
+		<Label Text="{Binding Source={x:Reference stepper}, Path=Value}"/>
+
+	</StackLayout>
+
+</ContentPage>

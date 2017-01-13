@@ -8,7 +8,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new ActionSheetExample(); 	// switch this to a new instance of any
+			MainPage = new SwitchSliderStepperEx(); 	// switch this to a new instance of any
             									   // of the other examples to view that page
 		}
 

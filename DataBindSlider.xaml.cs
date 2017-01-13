@@ -31,7 +31,7 @@ namespace HelloWorld
 				quoteLabel.Text = quotes[0];
 			}
 
-			else 
+			else
 			{
 				index++;
 				quoteLabel.Text = quotes[index];
