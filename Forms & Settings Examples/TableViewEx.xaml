@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns:local="clr-namespace:HelloWorld"
+		xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.TableViewEx">
+
+	<TableView Intent="Form">
+		<TableRoot>
+			<TableSection Title="Basics">
+				<TextCell Text="Name" Detail="Bib Fortuna"/>
+				<EntryCell Label="Occupation" Placeholder="(eg Jabba's doorman)"/>
+				<SwitchCell Text="Notifications" On="true"/>
+				<local:DateCell Label="Starts"/> <!--Custom cell we made (found in /Extensions)-->
+				<local:DateCell Label="Ends"/>
+			</TableSection>
+		</TableRoot>
+	</TableView>
+
+</ContentPage>
