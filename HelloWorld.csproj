@@ -36,21 +36,6 @@
     <EmbeddedResource Include="DataBindSlider.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="StackLayoutPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GridPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GridPhonePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AbsoluteLayoutPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RelativeLayoutPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="ListExample.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -75,6 +60,21 @@
     <EmbeddedResource Include="NavigationExamples\TabbedExample\ContentPage2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Layout Examples\AbsoluteLayoutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout Examples\GridPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout Examples\GridPhonePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout Examples\RelativeLayoutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout Examples\StackLayoutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -89,21 +89,6 @@
     </Compile>
     <Compile Include="DataBindSlider.cs">
       <DependentUpon>DataBindSlider.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="StackPage.xaml.cs">
-      <DependentUpon>StackLayoutPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="GridPage.xaml.cs">
-      <DependentUpon>GridPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="GridPhonePage.xaml.cs">
-      <DependentUpon>GridPhonePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="AbsoluteLayoutPage.xaml.cs">
-      <DependentUpon>AbsoluteLayoutPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="RelativeLayoutPage.xaml.cs">
-      <DependentUpon>RelativeLayoutPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListExample.xaml.cs">
       <DependentUpon>ListExample.xaml</DependentUpon>
@@ -131,6 +116,21 @@
     <Compile Include="NavigationExamples\TabbedExample\ContentPage2.xaml.cs">
       <DependentUpon>ContentPage2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Layout Examples\AbsoluteLayoutPage.xaml.cs">
+      <DependentUpon>AbsoluteLayoutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout Examples\GridPage.xaml.cs">
+      <DependentUpon>GridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout Examples\GridPhonePage.xaml.cs">
+      <DependentUpon>GridPhonePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout Examples\RelativeLayoutPage.xaml.cs">
+      <DependentUpon>RelativeLayoutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout Examples\StackPage.xaml.cs">
+      <DependentUpon>StackLayoutPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -150,6 +150,7 @@
     <Folder Include="Models\" />
     <Folder Include="NavigationExamples\" />
     <Folder Include="NavigationExamples\TabbedExample\" />
+    <Folder Include="Layout Examples\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
