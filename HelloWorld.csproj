@@ -39,25 +39,25 @@
     <EmbeddedResource Include="ListExample.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="NavigationExamples\HomePage.xaml">
+    <EmbeddedResource Include="Navigation Examples\HomePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="NavigationExamples\IntroductionPage.xaml">
+    <EmbeddedResource Include="Navigation Examples\IntroductionPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="NavigationExamples\MasterDetailPage.xaml">
+    <EmbeddedResource Include="Navigation Examples\MasterDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="NavigationExamples\ContactDetailPage.xaml">
+    <EmbeddedResource Include="Navigation Examples\ContactDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="NavigationExamples\TabbedExample\TabbedPage.xaml">
+    <EmbeddedResource Include="Navigation Examples\TabbedExample\TabbedPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="NavigationExamples\TabbedExample\ContentPage1.xaml">
+    <EmbeddedResource Include="Navigation Examples\TabbedExample\ContentPage1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="NavigationExamples\TabbedExample\ContentPage2.xaml">
+    <EmbeddedResource Include="Navigation Examples\TabbedExample\ContentPage2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Layout Examples\AbsoluteLayoutPage.xaml">
@@ -75,10 +75,13 @@
     <EmbeddedResource Include="Layout Examples\StackLayoutPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="PopupExample.xaml">
+    <EmbeddedResource Include="Alert Examples\PopupExample.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="ActionSheetExample.xaml">
+    <EmbeddedResource Include="Alert Examples\ToolbarItemExample.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert Examples\ActionSheetExample.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -101,25 +104,25 @@
     </Compile>
     <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\ContactGroup.cs" />
-    <Compile Include="NavigationExamples\HomePage.xaml.cs">
+    <Compile Include="Navigation Examples\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NavigationExamples\IntroductionPage.xaml.cs">
+    <Compile Include="Navigation Examples\IntroductionPage.xaml.cs">
       <DependentUpon>IntroductionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NavigationExamples\MasterDetailPage.xaml.cs">
+    <Compile Include="Navigation Examples\MasterDetailPage.xaml.cs">
       <DependentUpon>MasterDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NavigationExamples\ContactDetailPage.xaml.cs">
+    <Compile Include="Navigation Examples\ContactDetailPage.xaml.cs">
       <DependentUpon>ContactDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NavigationExamples\TabbedExample\TabbedPage.xaml.cs">
+    <Compile Include="Navigation Examples\TabbedExample\TabbedPage.xaml.cs">
       <DependentUpon>TabbedPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NavigationExamples\TabbedExample\ContentPage1.xaml.cs">
+    <Compile Include="Navigation Examples\TabbedExample\ContentPage1.xaml.cs">
       <DependentUpon>ContentPage1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NavigationExamples\TabbedExample\ContentPage2.xaml.cs">
+    <Compile Include="Navigation Examples\TabbedExample\ContentPage2.xaml.cs">
       <DependentUpon>ContentPage2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Layout Examples\AbsoluteLayoutPage.xaml.cs">
@@ -137,10 +140,13 @@
     <Compile Include="Layout Examples\StackPage.xaml.cs">
       <DependentUpon>StackLayoutPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PopupExample.xaml.cs">
+    <Compile Include="Alert Examples\PopupExample.xaml.cs">
       <DependentUpon>PopupExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ActionSheetExample.xaml.cs">
+    <Compile Include="Alert Examples\ToolbarItemExample.xaml.cs">
+      <DependentUpon>ToolbarItemExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Alert Examples\ActionSheetExample.xaml.cs">
       <DependentUpon>ActionSheetExample.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -160,9 +166,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="NavigationExamples\" />
-    <Folder Include="NavigationExamples\TabbedExample\" />
+    <Folder Include="Navigation Examples\" />
+    <Folder Include="Navigation Examples\TabbedExample\" />
     <Folder Include="Layout Examples\" />
+    <Folder Include="Alert Examples\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
