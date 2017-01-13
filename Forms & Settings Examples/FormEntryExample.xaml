@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Padding="40" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.FormEntryExample">
+
+	<StackLayout>
+
+		<Entry Keyboard="Numeric" Placeholder="Phone #"/>
+		
+<!--		<Entry IsPassword="true" Completed="Handle_Completed"/>
+		<Label x:Name="label"/>-->
+		
+		<Entry IsPassword="true" TextChanged="Handle_TextChanged"/>
+		<Label x:Name="label2"/>
+
+	</StackLayout>
+
+</ContentPage>
